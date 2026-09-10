@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehdi Ennar  BTS SIO SISR</title>
+  <meta name="description" content="Portfolio BTS SIO SISR de Mehdi Ennar  Cybersécurité, systèmes, réseaux" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="main-nav">
+  <div class="container">
+    <a href="#" class="logo" data-page="home">ME</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      <a href="#" data-page="home" class="active">Accueil</a>
+      <a href="#" data-page="projets">Projets</a>
+      <a href="#" data-page="stage">Stage</a>
+      <a href="#" data-page="tableau">Tableau synthèse</a>
+      <a href="#" data-page="veille">Veille techno</a>
+      <a href="#" data-page="cv">Mon CV</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ════════════════════ PAGE : ACCUEIL ════════════════════ -->
+<div class="page active" id="page-home">
+
+  <section class="hero container">
+    <div class="hero-text reveal">
+      <div class="hero-eyebrow">BTS SIO  Option Cybersécurité / SISR</div>
+      <h1>
+        Comprendre,<br>
+        <span class="highlight">sécuriser</span><br>
+        et faire tourner les systèmes.
+      </h1>
+      <p class="hero-desc">
+        Je m'appelle Mehdi Ennar, étudiant en BTS SIO option SISR à IRIS School Nice.
+        Je m'intéresse à la cybersécurité, aux systèmes Linux/Windows Server et un peu au développement back-end.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-page="projets">Voir mes projets</button>
+        <button class="btn btn-secondary" onclick="document.getElementById('contact-section').scrollIntoView({behavior:'smooth'})">Me contacter</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <strong>BTS SIO SISR</strong>
+          <span>IRIS School, Nice</span>
+        </div>
+        <div class="stat-card">
+          <strong>Python · Java · SQL</strong>
+          <span>Développement & logique</span>
+        </div>
+        <div class="stat-card">
+          <strong>Linux · Windows Server</strong>
+          <span>Systèmes & administration</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div>
+        <div class="photo-frame">
+          <img src="mehd.jpg" alt="Mehdi Ennar" class="portrait" />
+        </div>
+        <p class="photo-caption">Nice, Côte d'Azur</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section container" id="about">
+    <div class="section-heading reveal">
+      <p class="section-tag">Présentation</p>
+      <h2>À propos de moi</h2>
+      <p>Étudiant en BTS SIO, avec un vrai intérêt pour la cybersécurité et les projets où je peux mettre les mains dans le concret.</p>
+    </div>
+    <div class="about-grid">
+      <article class="glass-card reveal">
+        <h3>Profil</h3>
+        <p>Étudiant en BTS SIO option Cybersécurité / SISR à IRIS School Nice. J'aime comprendre comment les systèmes fonctionnent réellement, pas juste en théorie  d'où mon goût pour les TP et le stage en entreprise.</p>
+        <div class="pill-row">
+          <span class="pill">Cybersécurité</span>
+          <span class="pill">SISR</span>
+          <span class="pill">Linux</span>
+          <span class="pill">Active Directory</span>
+        </div>
+      </article>
+      <article class="glass-card reveal">
+        <h3>Points forts</h3>
+        <ul class="clean-list">
+          <li>Python, Java, HTML/CSS, SQL</li>
+          <li>Linux et Windows Server</li>
+          <li>Git / GitHub  travail en équipe</li>
+          <li>Stage en gestion des accès et RGPD (HGC Construction)</li>
+          <li>Première expérience en tests applicatifs (Akidaia)</li>
+        </ul>
+      </article>
+      <article class="glass-card reveal full-width">
+        <div style="display:flex;justify-content:space-between;gap:24px;align-items:flex-start;flex-wrap:wrap">
+          <div>
+            <p class="section-tag">Objectif</p>
+            <h3 style="margin-top:8px">Évoluer vers la cybersécurité et l'administration systèmes</h3>
+          </div>
+          <p style="max-width:480px;color:var(--muted);line-height:1.65">Je veux consolider mes compétences en conditions réelles, sur des projets où la sécurité et la stabilité des infrastructures comptent vraiment  pas juste en exercice de cours.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+ 
+
+  <!-- TIMELINE -->
+  <section class="section container">
+    <div class="section-heading reveal">
+      <p class="section-tag">Parcours</p>
+      <h2>Formation & expériences</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2025  en cours</div>
+        <div class="timeline-content"><h3>BTS SIO  Option Cybersécurité / SISR</h3><p>IRIS School, Nice  développement, réseaux, sécurité des systèmes d'information</p></div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2024  2025</div>
+        <div class="timeline-content"><h3>BUT Informatique</h3><p>IUT Nice Côte d'Azur</p></div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">1ère année BTS</div>
+        <div class="timeline-content"><h3>Stage  Gestion des accès & RGPD</h3><p>HGC Construction · Audit des accès, réorganisation Active Directory, mise en conformité RGPD</p></div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Juil.–Août 2025</div>
+        <div class="timeline-content"><h3>Agent technique  Atelier & Logistique</h3><p>Mairie de Villefranche · Support logistique événementiel</p></div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Avr.–Juin 2025</div>
+        <div class="timeline-content"><h3>Réceptionniste</h3><p>Hôtel Grimaldi · Gestion des réservations, relation client</p></div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Avr.–Mai 2024</div>
+        <div class="timeline-content"><h3>Stagiaire  Tests applicatifs</h3><p>Akidaia · Tests fonctionnels, identification de bugs, remontée d'anomalies</p></div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2023  2024</div>
+        <div class="timeline-content"><h3>Baccalauréat Général  Mention Bien</h3><p>Lycée Albert Calmette</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTS -->
+  <section class="section container">
+    <div class="section-heading reveal">
+      <p class="section-tag">Certifications</p>
+      <h2>Formations complémentaires</h2>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card reveal"><h3>DELF B2</h3><p>Institut Français de Tunisie · 2021</p></div>
+      <div class="cert-card reveal"><h3>Certification Python</h3><p>Graines de développeurs · 2022</p></div>
+      <div class="cert-card reveal"><h3>Certification Auto-entrepreneuriat</h3><p>Graines d'entrepreneurs · 2022</p></div>
+      <div class="cert-card reveal"><h3>AeroDay</h3><p>Aerobotix · Participation scientifique · 2017</p></div>
+      <div class="cert-card reveal"><h3>Camp scientifique</h3><p>Youth for Science · 2018</p></div>
+      <div class="cert-card reveal"><h3>Veille techno BTS SIO</h3><p>Ransomwares & IA · 2025–2026</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section container" id="contact-section">
+    <div class="contact-big reveal">
+      <div>
+        <p class="section-tag">Contact</p>
+        <h2>Travaillons ensemble</h2>
+        <p>Disponible pour un stage de 4 semaines en août. Ouvert à toute opportunité en développement, support ou sécurité des systèmes.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:mehdi.ennar@gmail.com" class="contact-link">mehdi.ennar@gmail.com</a>
+        <a href="tel:+33758985565" class="contact-link">+33 7 58 98 55 65</a>
+        <span class="contact-link">Nice, 06300</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container footer-content"><p>© 2026 Mehdi Ennar · Portfolio BTS SIO SISR</p><p>IRIS School · Nice</p></div></footer>
+</div>
+
+<!-- ════════════════════ PAGE : PROJETS ════════════════════ -->
+<div class="page" id="page-projets">
+  <section class="section container">
+    <div class="section-heading reveal">
+      <p class="section-tag">Réalisations</p>
+      <h2>Mes projets</h2>
+      <p>Des projets menés en cours, en TP, ou en dehors des heures de classe.</p>
+    </div>
+    <div class="projects-grid">
+      <article class="project-card featured reveal">
+        <span class="project-badge">Application web</span>
+        <h3>Nice CRM Volleyball</h3>
+        <p>Plateforme CRM pour un club de volleyball niçois. Gestion des membres, licences, entraînements, paiements et communications internes.</p>
+        <div class="project-role">Mon rôle : back-end (API REST, base de données, logique serveur)</div>
+        <p style="font-size:.82rem;color:var(--muted)">Fait en binôme avec un collègue au front-end. Architecture REST, gestion des données membres et des sessions.</p>
+        <div class="project-tags"><span>Python</span><span>SQL</span><span>REST API</span><span>En cours</span></div>
+      </article>
+
+      <article class="project-card featured reveal">
+        <span class="project-badge">Refonte de site</span>
+        <h3>Iris Space  site de l'école</h3>
+        <p>Refonte complète du site web d'IRIS School (nom du projet trouvé par moi-même). Nouveau design, présentation des formations, actualités, espace étudiant.</p>
+        <div class="project-role">Mon rôle : front-end (design, intégration responsive)</div>
+        <p style="font-size:.82rem;color:var(--muted)">Réalisé en duo. Intégration responsive, animations CSS, accessibilité.</p>
+        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>En cours</span></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span class="project-badge">Portfolio</span>
+        <h3>Ce site</h3>
+        <p>Portfolio personnel en SPA multi-pages, avec tableau de synthèse et veille technologique intégrés. Refondu pour être plus clair et plus sobre.</p>
+        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Terminé</span></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span class="project-badge">Qualité logicielle</span>
+        <h3>Tests fonctionnels  Stage Akidaia</h3>
+        <p>Tests fonctionnels sur une application métier, identification et documentation de bugs, échanges réguliers avec l'équipe de développement.</p>
+        <div class="project-tags"><span>Testing</span><span>Debug</span><span>QA</span><span>Terminé</span></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span class="project-badge">Base de données</span>
+        <h3>Conception SQL</h3>
+        <p>Création de bases de données relationnelles, modélisation Merise, écriture de requêtes pour des projets scolaires et personnels.</p>
+        <div class="project-tags"><span>SQL</span><span>Modélisation</span><span>Merise</span></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span class="project-badge">Systèmes</span>
+        <h3>Administration Linux / infrastructure</h3>
+        <p>Installation de serveurs, configuration réseau, gestion des utilisateurs, scripts shell, sécurisation des accès sous Linux et Windows Server.</p>
+        <div class="project-tags"><span>Linux</span><span>Windows Server</span><span>Shell</span><span>Réseau</span></div>
+      </article>
+    </div>
+  </section>
+  <footer class="footer"><div class="container footer-content"><p>© 2026 Mehdi Ennar · Portfolio BTS SIO SISR</p></div></footer>
+</div>
+
+<!-- ════════════════════ PAGE : STAGE ════════════════════ -->
+<div class="page" id="page-stage">
+  <section class="section container">
+    <div class="section-heading reveal">
+      <p class="section-tag">Expérience professionnelle</p>
+      <h2>Mon stage chez HGC Construction</h2>
+    </div>
+
+    <div class="stage-hero reveal">
+      <p class="section-tag">Contexte</p>
+      <h2>Gestion des accès, des données clients et RGPD</h2>
+      <p>HGC Construction est une entreprise du bâtiment. Comme dans beaucoup de PME, l'informatique n'est pas le cœur de métier : les dossiers s'accumulent sur le serveur, les droits d'accès évoluent au fil des embauches et des départs sans être toujours nettoyés, et personne n'a vraiment le temps de se pencher sur le RGPD. C'est exactement ce genre de terrain qui m'a été confié : remettre de l'ordre dans la gestion des données clients et des accès du réseau.</p>
+      <div class="stage-meta">
+        <span><strong>Entreprise :</strong> HGC Construction</span>
+        <span><strong>Secteur :</strong> Bâtiment / construction</span>
+        <span><strong>Mission :</strong> Administration systèmes, accès, RGPD</span>
+        <span><strong>Période :</strong> 1ère année de BTS SIO SISR</span>
+      </div>
+    </div>
+
+    <div class="section-heading reveal" style="margin-bottom:20px">
+      <p class="section-tag">Déroulé</p>
+      <h2>Ce que j'ai fait, étape par étape</h2>
+    </div>
+
+    <div class="stage-steps">
+      <div class="stage-step reveal">
+        <div class="stage-step-num">01</div>
+        <div>
+          <h3>Faire l'état des lieux des accès</h3>
+          <p>Avant de changer quoi que ce soit, il fallait d'abord comprendre l'existant. J'ai commencé par un audit du serveur de fichiers : quels dossiers partagés existent, qui a le droit d'y accéder, et où se trouvent les données sensibles (contrats clients, devis, informations personnelles). J'ai listé les anomalies que j'ai trouvées  des salariés partis depuis longtemps qui avaient encore accès à des dossiers, ou au contraire des personnes qui n'avaient pas accès à ce dont elles avaient besoin pour travailler.</p>
+          <p>C'est une étape qui paraît simple mais qui prend du temps : il faut vérifier dossier par dossier, comparer avec la liste réelle des salariés, et tout noter proprement pour pouvoir justifier les changements ensuite.</p>
+          <div class="stage-step-tools">
+            <span class="stage-tool-tag">Explorateur de fichiers Windows Server</span>
+            <span class="stage-tool-tag">Active Directory Users and Computers</span>
+            <span class="stage-tool-tag">Tableur (inventaire des écarts)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage-step reveal">
+        <div class="stage-step-num">02</div>
+        <div>
+          <h3>Réorganiser les accès dans Active Directory</h3>
+          <p>Une fois l'audit fait, j'ai restructuré l'annuaire Active Directory pour que les droits collent à l'organisation réelle de l'entreprise. Concrètement : j'ai créé des unités d'organisation (UO) par service (chantier, comptabilité, direction), puis des groupes de sécurité rattachés à chaque UO. Chaque salarié n'est membre que des groupes correspondant à son poste.</p>
+          <p>Ensuite j'ai revu les droits NTFS sur les dossiers clients selon le principe du moindre privilège : on ne donne accès qu'à ce qui est nécessaire pour faire son travail, pas plus. Ça évite qu'un dossier avec des données personnelles de clients se retrouve accessible à tout le monde par défaut, simplement parce que personne n'y avait fait attention.</p>
+          <div class="stage-step-tools">
+            <span class="stage-tool-tag">Active Directory Users and Computers (ADUC)</span>
+            <span class="stage-tool-tag">Unités d'organisation & groupes de sécurité</span>
+            <span class="stage-tool-tag">Droits NTFS</span>
+            <span class="stage-tool-tag">gpupdate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage-step reveal">
+        <div class="stage-step-num">03</div>
+        <div>
+          <h3>Se mettre en conformité RGPD</h3>
+          <p>Le RGPD, vu en cours, ça reste assez abstrait. En stage, j'ai dû l'appliquer concrètement sur des vraies données clients. J'ai rédigé un registre des traitements : un document qui liste quelles données personnelles l'entreprise conserve (coordonnées clients, informations de chantier), pourquoi elles sont stockées, qui y a accès et combien de temps elles sont gardées.</p>
+          <p>En parallèle, j'ai déployé une stratégie de groupe (GPO) pour imposer des mots de passe plus robustes sur les postes du réseau, et j'ai rédigé un petit guide de bonnes pratiques pour les salariés : ne pas partager son mot de passe, verrouiller sa session en s'absentant, signaler un email suspect. Rien de très technique, mais c'est souvent ce qui manque le plus dans une PME.</p>
+          <div class="stage-step-tools">
+            <span class="stage-tool-tag">Registre de traitement RGPD</span>
+            <span class="stage-tool-tag">Group Policy Management Console (GPMC)</span>
+            <span class="stage-tool-tag">Politique de mots de passe</span>
+            <span class="stage-tool-tag">Guide de bonnes pratiques (Word)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stage-outcome reveal">
+      <h3>Ce que ce stage m'a appris</h3>
+      <ul>
+        <li>La cybersécurité en entreprise, ce n'est pas que du technique  c'est surtout de l'organisation et de la rigueur (savoir qui a accès à quoi, et pourquoi).</li>
+        <li>Le RGPD n'est pas juste une contrainte administrative : appliqué correctement, il oblige à se poser les bonnes questions sur les données qu'on garde et pourquoi.</li>
+        <li>Le principe du moindre privilège est simple à énoncer mais long à mettre en place proprement sur un parc existant.</li>
+        <li>Documenter chaque changement est indispensable : sans ça, personne après moi ne pourrait comprendre pourquoi tel groupe a tel accès.</li>
+      </ul>
+    </div>
+  </section>
+  <footer class="footer"><div class="container footer-content"><p>© 2026 Mehdi Ennar · Stage HGC Construction</p></div></footer>
+</div>
+
+<!-- ════════════════════ PAGE : TABLEAU DE SYNTHESE ════════════════════ -->
+<div class="page" id="page-tableau">
+  <section class="section container">
+    <div class="section-heading reveal">
+      <p class="section-tag">BTS SIO  SISR  Épreuve E4</p>
+      <h2>Tableau de synthèse des réalisations professionnelles</h2>
+      <p>Récapitulatif officiel des compétences mobilisées sur mes réalisations, en formation comme en entreprise (HGC Construction). Format conforme au tableau de synthèse E4.</p>
+    </div>
+
+    <div class="synth-header">
+      <div class="synth-legend">
+        <span><strong style="color:var(--ink)">Candidat :</strong> Ennar Mehdi</span>
+        <span>·</span>
+        <span>Centre de formation : Nice</span>
+        <span>·</span>
+        <span>Option : SISR</span>
+      </div>
+      <div class="synth-actions">
+        <a href="tableau_de_synthese_mehdi.pdf" download class="btn btn-primary">Télécharger le tableau (PDF)</a>
+      </div>
+    </div>
+
+    <div class="synth-block reveal">
+      <div class="synth-block-title">Réalisations en cours de formation</div>
+      <div class="synth-table-wrap">
+        <table class="synth-table">
+          <thead>
+            <tr>
+              <th style="min-width:260px">Réalisation</th>
+              <th>Patrimoine SI</th>
+              <th>Incidents / support</th>
+              <th>Présence en ligne</th>
+              <th>Mode projet</th>
+              <th>Service informatique</th>
+              <th>Dév. professionnel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="competence-cell">GLPI : mise en place d'un outil de ticketing et de gestion de parc (GLPI / OCS)</td>
+              <td class="check-cell">✓</td><td class="check-cell">✓</td><td></td><td></td><td class="check-cell">✓</td><td></td>
+            </tr>
+            <tr>
+              <td class="competence-cell">Sécurisation de l'infrastructure et gestion des accès (XEILOS / pare-feu)</td>
+              <td class="check-cell">✓</td><td></td><td></td><td></td><td class="check-cell">✓</td><td></td>
+            </tr>
+            <tr>
+              <td class="competence-cell">Déploiement automatisé d'agents de sécurité  télédéploiement d'agents de supervision et d'antivirus sur les postes du réseau. Livrables : scripts PowerShell/Bash, rapport de conformité du parc.</td>
+              <td class="check-cell">✓</td><td></td><td></td><td></td><td class="check-cell">✓</td><td></td>
+            </tr>
+            <tr>
+              <td class="competence-cell">Veille technologique et cybersécurité (réalisation personnelle)</td>
+              <td></td><td></td><td></td><td></td><td></td><td class="check-cell">✓</td>
+            </tr>
+            <tr>
+              <td class="competence-cell">Projet personnel : durcissement d'un annuaire Active Directory (GPO & habilitations)</td>
+              <td class="check-cell">✓</td><td></td><td></td><td></td><td></td><td class="check-cell">✓</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="synth-block reveal">
+      <div class="synth-block-title">Réalisations en milieu professionnel  1ère année (stage HGC Construction)</div>
+      <div class="synth-table-wrap">
+        <table class="synth-table">
+          <thead>
+            <tr>
+              <th style="min-width:260px">Réalisation</th>
+              <th>Patrimoine SI</th>
+              <th>Incidents / support</th>
+              <th>Présence en ligne</th>
+              <th>Mode projet</th>
+              <th>Service informatique</th>
+              <th>Dév. professionnel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="competence-cell">Audit du parc et des accès clients  inventaire des dossiers partagés, relevé des anomalies de droits d'accès, cartographie des données sensibles.</td>
+              <td class="check-cell">✓</td><td></td><td></td><td class="check-cell">✓</td><td></td><td></td>
+            </tr>
+            <tr>
+              <td class="competence-cell">Réorganisation des habilitations et sécurité réseau  structuration de l'Active Directory (UO, groupes de sécurité), restriction des droits NTFS selon le principe du moindre privilège.</td>
+              <td class="check-cell">✓</td><td></td><td></td><td></td><td class="check-cell">✓</td><td></td>
+            </tr>
+            <tr>
+              <td class="competence-cell">Mise en conformité RGPD et sensibilisation des utilisateurs  registre de traitement des données clients, GPO de sécurité des mots de passe, guide de bonnes pratiques.</td>
+              <td class="check-cell">✓</td><td></td><td></td><td class="check-cell">✓</td><td class="check-cell">✓</td><td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="synth-block reveal">
+      <div class="synth-block-title">Réalisations en milieu professionnel  2nde année</div>
+      <div class="synth-table-wrap">
+        <table class="synth-table">
+          <thead>
+            <tr>
+              <th style="min-width:260px">Réalisation</th>
+              <th>Patrimoine SI</th>
+              <th>Incidents / support</th>
+              <th>Présence en ligne</th>
+              <th>Mode projet</th>
+              <th>Service informatique</th>
+              <th>Dév. professionnel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="competence-cell" style="color:var(--muted)">À compléter au fil de la 2nde année.</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p style="color:var(--muted);font-size:.82rem;margin-top:8px">Ce tableau reprend le format officiel de l'épreuve E4 du BTS SIO. La version PDF téléchargeable ci-dessus est celle utilisée pour le dossier.</p>
+  </section>
+  <footer class="footer"><div class="container footer-content"><p>© 2026 Mehdi Ennar · Tableau de synthèse BTS SIO E4</p></div></footer>
+</div>
+
+<!-- ════════════════════ PAGE : VEILLE ════════════════════ -->
+<div class="page" id="page-veille">
+  <section class="section container">
+    <div class="section-heading reveal">
+      <p class="section-tag">Veille technologique  BTS SIO SISR</p>
+      <h2>Ransomwares & intelligence artificielle</h2>
+    </div>
+
+    <div class="veille-hero reveal">
+      <p class="section-tag">Problématique</p>
+      <h2>Comment l'IA fait-elle évoluer les ransomwares ?</h2>
+      <p>Pour cette veille, j'ai voulu suivre un sujet qui revient sans arrêt dans l'actualité cyber depuis deux ans : l'utilisation de l'intelligence artificielle par les groupes de ransomware. Ce n'est pas juste un effet de mode journalistique  les rapports de l'ANSSI et de Sophos montrent que les méthodes d'attaque ont vraiment changé de nature avec l'arrivée de l'IA générative.</p>
+      <div class="veille-question">« Comment l'intelligence artificielle fait-elle évoluer les ransomwares et quelles stratégies les entreprises doivent-elles adopter pour s'en protéger ? »</div>
+    </div>
+
+    <!-- Méthode de veille -->
+    <div class="glass-card reveal" style="margin-bottom:32px">
+      <h3>Comment j'ai organisé ma veille</h3>
+      <p>J'ai suivi ce sujet sur plusieurs semaines plutôt que de tout chercher en une fois, pour voir l'actualité évoluer. Mon flux principal a été <strong>daily.dev</strong> : je m'en sers au quotidien pour suivre l'actu tech et cybersécurité, et j'ai configuré des filtres sur les mots-clés « ransomware », « RaaS » et « AI security » pour que les bons articles remontent automatiquement dans mon fil. C'est plus simple à tenir dans la durée qu'une recherche manuelle à chaque fois.</p>
+      <p>À côté de ça, j'ai croisé les informations avec des sources plus institutionnelles pour vérifier les chiffres, et avec des rapports annuels d'éditeurs de sécurité pour la partie statistiques.</p>
+      <div class="veille-sources">
+        <div class="source-card">
+          <h4>daily.dev</h4>
+          <p>Mon flux principal au quotidien, filtré sur les mots-clés cybersécurité et IA. Pratique pour repérer les articles au fil de l'eau.</p>
+        </div>
+        <div class="source-card">
+          <h4>Sources institutionnelles</h4>
+          <p>ANSSI et CERT-FR pour les alertes et recommandations officielles côté France.</p>
+        </div>
+        <div class="source-card">
+          <h4>Rapports d'éditeurs</h4>
+          <p>Sophos Threat Report et Microsoft Security Blog pour les statistiques mondiales et les solutions de détection.</p>
+        </div>
+        <div class="source-card">
+          <h4>Presse spécialisée</h4>
+          <p>ZATAZ et Bleeping Computer pour l'actualité des attaques et des groupes criminels.</p>
+        </div>
+        <div class="source-card">
+          <h4>Cybermalveillance.gouv.fr</h4>
+          <p>Conseils pratiques côté entreprises, avec des cas concrets français.</p>
+        </div>
+        <div class="source-card">
+          <h4>Recoupement</h4>
+          <p>Chaque chiffre repris dans cette veille a été vérifié dans au moins deux sources avant d'être gardé.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="veille-stats-grid reveal">
+      <div class="veille-stat"><strong>7 100</strong><span>attaques par jour en 2024</span></div>
+      <div class="veille-stat"><strong>2,7 M$</strong><span>rançon moyenne payée (grandes entreprises)</span></div>
+      <div class="veille-stat"><strong>42%</strong><span>des attaques utilisent l'IA</span></div>
+      <div class="veille-stat"><strong>&lt; 4h</strong><span>délai moyen de chiffrement</span></div>
+    </div>
+
+    <!-- Partie 1 -->
+    <div class="veille-section reveal">
+      <h3>Comment un ransomware fonctionne, et ce que l'IA change</h3>
+      <p>Un ransomware classique suit toujours à peu près le même cycle : infection (email piégé, vulnérabilité non corrigée), propagation dans le réseau, chiffrement des fichiers avec des algorithmes comme AES-256 ou RSA-2048, puis demande de rançon en cryptomonnaie. Ce mécanisme de base n'a pas vraiment changé. Ce qui a changé, c'est tout ce qui se passe avant et pendant l'attaque.</p>
+      <p>Avant, un email de phishing se repérait assez vite : fautes d'orthographe, formulation bizarre, expéditeur douteux. Avec des modèles de langage détournés comme WormGPT ou FraudGPT, les attaquants génèrent maintenant des emails qui imitent parfaitement le style d'un collègue ou d'un supérieur, en s'appuyant sur ce qu'ils trouvent sur LinkedIn. Selon Sophos, le taux de clic sur ce type de phishing généré par IA est trois fois plus élevé que sur un phishing classique  ce qui se comprend, vu la qualité du résultat.</p>
+      <ul>
+        <li>Deepfakes audio et vidéo pour se faire passer pour un dirigeant et déclencher un virement ou une ouverture d'accès (la fameuse « fraude au président »)</li>
+        <li>Malwares polymorphiques régénérés à chaque attaque, ce qui rend la détection par signature classique inefficace</li>
+        <li>Reconnaissance automatisée des réseaux pour repérer les failles avant même de lancer l'attaque</li>
+      </ul>
+    </div>
+
+    <!-- Partie 2 -->
+    <div class="veille-section reveal">
+      <h3>Le modèle RaaS : la cybercriminalité en mode "service"</h3>
+      <p>Ce qui m'a le plus surpris en creusant le sujet, c'est à quel point le Ransomware-as-a-Service a industrialisé les attaques. Des groupes comme LockBit, BlackCat/ALPHV ou Cl0p développent une plateforme d'attaque clé en main, qu'ils louent ensuite à des « affiliés » qui n'ont pas forcément de compétences techniques poussées. L'IA vient encore accélérer ce modèle : reconnaissance réseau automatisée, exploitation de failles zero-day en quelques heures, et même des chatbots qui négocient directement la rançon avec la victime, en ajustant le montant demandé selon la situation financière estimée de l'entreprise.</p>
+      <p>Quelques cas concrets illustrent bien l'ampleur du problème : l'attaque contre l'hôpital de Corbeil-Essonnes en 2022 a paralysé le système pendant plusieurs semaines et exposé des données médicales sur le darkweb, et l'attaque Change Healthcare en 2024 a exposé environ 190 millions de dossiers patients aux États-Unis, pour une rançon de 22 millions de dollars payée par l'entreprise.</p>
+    </div>
+
+    <!-- Partie 3 -->
+    <div class="veille-section reveal">
+      <h3>Comment les entreprises peuvent se protéger</h3>
+      <p>La bonne nouvelle, c'est que les stratégies de défense n'ont pas besoin d'être révolutionnaires pour être efficaces  il s'agit surtout d'appliquer sérieusement des principes déjà connus.</p>
+      <ul>
+        <li><strong>La règle 3-2-1 des sauvegardes :</strong> 3 copies des données, sur 2 supports différents, dont 1 copie hors ligne (air-gap). C'est la base pour pouvoir se relever après une attaque sans payer la rançon.</li>
+        <li><strong>PRA et PCA :</strong> définir à l'avance combien de temps d'interruption est tolérable (RTO) et combien de données on peut se permettre de perdre (RPO), puis tester les sauvegardes régulièrement plutôt que de découvrir qu'elles ne fonctionnent pas le jour où on en a besoin.</li>
+        <li><strong>Outils EDR/XDR :</strong> les antivirus à signature ne suffisent plus contre des malwares polymorphiques. Des solutions comme CrowdStrike Falcon ou Microsoft Defender analysent le comportement en temps réel pour repérer une activité suspecte avant le chiffrement.</li>
+        <li><strong>Sensibilisation humaine :</strong> puisque l'IA rend le phishing plus crédible, la formation des salariés (MFA, principe du moindre privilège, vérification des demandes inhabituelles) reste la ligne de défense la plus rentable.</li>
+        <li><strong>Cadre réglementaire :</strong> la directive NIS2 impose des obligations de sécurité aux entités essentielles, et le RGPD impose de notifier toute violation de données sous 72 heures.</li>
+      </ul>
+    </div>
+
+    <!-- Conclusion + téléchargement -->
+    <div class="glass-card reveal" style="margin-top:8px">
+      <h3>Ce que je retiens de cette veille</h3>
+      <p>L'intelligence artificielle n'a pas inventé de nouvelles failles, mais elle a rendu les attaques existantes beaucoup plus rapides, plus ciblées et plus difficiles à repérer. Pour un futur professionnel en SISR, ça confirme que la sécurité ne se joue pas seulement sur des outils techniques : c'est autant une question de sauvegardes bien pensées, de sensibilisation des utilisateurs, et de veille continue  parce que les méthodes des attaquants changent vite, et qu'il vaut mieux les suivre que les découvrir en subissant une attaque.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:16px">
+        <a href="Veille_Technologique_Ennar_Mehdi.pdf" download class="btn btn-primary">Télécharger le rapport complet (PDF)</a>
+      </div>
+    </div>
+
+    <!-- Sources -->
+    <div class="glass-card reveal" style="margin-top:20px">
+      <h3>Sources utilisées</h3>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:12px">
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>daily.dev</strong>  flux personnalisé, filtres cybersécurité / IA</div>
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>ANSSI</strong>  anssi.fr/publications · 2024–2026</div>
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>Sophos Threat Report</strong>  sophos.com</div>
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>CERT-FR</strong>  cert.ssi.gouv.fr</div>
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>ZATAZ</strong>  zataz.com</div>
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>Microsoft Security Blog</strong>  Defender, EDR/XDR</div>
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>Cybermalveillance.gouv.fr</strong>  conseils entreprises</div>
+        <div style="padding:10px 14px;background:var(--bg);font-size:.85rem"><strong>Bleeping Computer</strong>  actualité des attaques</div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="container footer-content"><p>© 2026 Mehdi Ennar · Veille technologique BTS SIO</p></div></footer>
+</div>
+
+<!-- ════════════════════ PAGE : CV ════════════════════ -->
+<div class="page" id="page-cv">
+  <section class="section container">
+    <div class="section-heading reveal">
+      <p class="section-tag">Curriculum Vitae</p>
+      <h2>Mon CV</h2>
+      <p>Aperçu de mon parcours et téléchargement du CV officiel en PDF.</p>
+    </div>
+
+    <div class="cv-page-content">
+      <div style="width:100%;max-width:840px" class="reveal">
+        <div class="cv-download-box">
+          <h3>CV Mehdi Ennar  BTS SIO SISR</h3>
+          <p>Version PDF · format A4</p>
+          <a href="cv_mehdi_ennar.pdf" download="CV_Mehdi_Ennar.pdf" class="btn btn-primary">Télécharger le CV (PDF)</a>
+        </div>
+      </div>
+
+      <div class="cv-preview-frame reveal">
+        <div class="cv-preview-header">
+          <img src="mehd.jpg" alt="Mehdi Ennar" class="cv-photo" />
+          <div>
+            <div class="cv-name">Mehdi Ennar</div>
+            <div class="cv-title">Étudiant BTS SIO  Cybersécurité / SISR</div>
+            <div class="cv-contact-row">
+              <span>mehdi.ennar@gmail.com</span>
+              <span>+33 7 58 98 55 65</span>
+              <span>Nice 06300</span>
+            </div>
+          </div>
+        </div>
+        <div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--line)">
+          <p style="color:var(--muted);font-size:.9rem;line-height:1.65">Étudiant en BTS SIO (option Cybersécurité) à IRIS School, intéressé par la cybersécurité, les systèmes Linux et le développement. Je recherche un stage de 4 semaines en août pour valider mon année, idéalement en développement, support ou sécurité des systèmes.</p>
+        </div>
+        <div class="cv-grid">
+          <div>
+            <div class="cv-section">
+              <h3>Formation</h3>
+              <div class="cv-entry"><h4>BTS SIO  Cybersécurité / SISR</h4><div class="cv-entry-meta">IRIS School · Nice · 2025 – en cours</div></div>
+              <div class="cv-entry"><h4>BUT Informatique</h4><div class="cv-entry-meta">IUT Nice Côte d'Azur · 2024–2025</div></div>
+              <div class="cv-entry"><h4>Baccalauréat Général  Mention Bien</h4><div class="cv-entry-meta">Lycée Albert Calmette · 2023–2024</div></div>
+            </div>
+            <div class="cv-section">
+              <h3>Certifications</h3>
+              <div class="cv-entry"><h4>DELF B2</h4><p>Institut Français de Tunisie · 2021</p></div>
+              <div class="cv-entry"><h4>Certification Python</h4><p>Graines de développeurs · 2022</p></div>
+              <div class="cv-entry"><h4>Certification Auto-entrepreneuriat</h4><p>Graines d'entrepreneurs · 2022</p></div>
+            </div>
+            <div class="cv-section">
+              <h3>Langues</h3>
+              <div class="cv-entry"><h4>Français</h4><p>Natif</p></div>
+              <div class="cv-entry"><h4>Anglais</h4><p>Intermédiaire</p></div>
+            </div>
+          </div>
+          <div>
+            <div class="cv-section">
+              <h3>Expériences</h3>
+              <div class="cv-entry"><h4>Stage  Gestion des accès & RGPD</h4><div class="cv-entry-meta">HGC Construction · 1ère année BTS</div><p>Audit des accès, réorganisation Active Directory, mise en conformité RGPD.</p></div>
+              <div class="cv-entry"><h4>Agent technique  Mairie de Villefranche</h4><div class="cv-entry-meta">Juil.–Août 2025</div><p>Support logistique événementiel, organisation des équipements communaux.</p></div>
+              <div class="cv-entry"><h4>Réceptionniste  Hôtel Grimaldi</h4><div class="cv-entry-meta">Avr.–Juin 2025</div><p>Check-in/check-out, gestion des réservations, relation client.</p></div>
+              <div class="cv-entry"><h4>Commis de salle  La Maison de Beaulieu</h4><div class="cv-entry-meta">Mai 2025 – aujourd'hui</div></div>
+              <div class="cv-entry"><h4>Stagiaire tests applicatifs  Akidaia</h4><div class="cv-entry-meta">Avr.–Mai 2024</div><p>Tests fonctionnels, remontée de bugs, collaboration avec l'équipe dev.</p></div>
+            </div>
+            <div class="cv-section">
+              <h3>Compétences techniques</h3>
+              <div class="cv-skills-list">
+                <span class="cv-skill-tag">Python</span><span class="cv-skill-tag">Java</span><span class="cv-skill-tag">HTML / CSS</span><span class="cv-skill-tag">SQL</span><span class="cv-skill-tag">Linux</span><span class="cv-skill-tag">Windows Server</span><span class="cv-skill-tag">Active Directory</span><span class="cv-skill-tag">Git / GitHub</span><span class="cv-skill-tag">Cybersécurité</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="container footer-content"><p>© 2026 Mehdi Ennar · CV BTS SIO SISR</p></div></footer>
+</div>
+
+<button class="back-to-top" id="back-to-top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
